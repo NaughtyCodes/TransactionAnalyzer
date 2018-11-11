@@ -1,12 +1,9 @@
 # TransactionAnalyzer
-A Simple Spring Boot application to analysis transactions
 
-Project Structure :
-
-How to Run:
-
-A simplified financial transaction analysis system.
+A Simple Spring Boot application to analyse financial transactions
 The goal of the system is to display statistic information about processed transaction
+
+## https://github.com/NaughtyCodes/TransactionAnalyzer/wiki
 
 Application has three End points
 
@@ -18,7 +15,7 @@ Landing Screen
 
 To get all transactions
 
-3 => http://localhost:8080/transaction/analyse?fromDate={From Date}&toDate={To Date}&merchant={Merchand Name}
+3 => http://localhost:8080/transaction/analyse?fromDate={FromDate}&toDate={ToDate}&merchant={MerchandName}
 
 To Analysis the historical transactions based on provided date range
 
