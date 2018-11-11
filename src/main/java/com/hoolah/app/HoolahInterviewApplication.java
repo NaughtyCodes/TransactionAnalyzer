@@ -65,7 +65,7 @@ public class HoolahInterviewApplication {
 		String[] beanNameList = ctx.getBeanDefinitionNames();
 		Arrays.sort(beanNameList);
 		for(String beanName : beanNameList) {
-			 logger.info("Bean Definition =>"+beanName);
+			 logger.info("Bean Definition => "+beanName);
 		}
 		
 	}
